@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 class PagosService extends ChangeNotifier {
-  List<String> _pagos = [];
+  final List<String> _pagos = [];
 
   List<String> get pagos => _pagos;
 
